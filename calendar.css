@@ -1,0 +1,30 @@
+.calendar .symbol {
+  padding-left: 0;
+  padding-right: 2em;
+  font-size: 250%;
+  vertical-align: top;
+}
+
+.calendar .title {
+	font-size: 250%;
+}
+
+.calendar time {
+	font-size: 250%;
+}
+
+.calendar .symbol span {
+  display: inline-block;
+  transform: translate(0, 2px);
+}
+
+.calendar .title {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.calendar .time {
+  padding-left: 30px;
+  text-align: right;
+  vertical-align: top;
+}

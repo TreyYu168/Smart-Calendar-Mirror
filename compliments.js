@@ -14,7 +14,7 @@ Module.register("compliments", {
 			evening: ["Good evening, Yu Family"],
 			"....-01-01": ["Happy new year!"]
 		},
-		updateInterval: 30000,
+		updateInterval: 15000,
 		remoteFile: null,
 		fadeSpeed: 4000,
 		morningStartTime: 3,
