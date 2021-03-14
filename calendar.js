@@ -9,7 +9,7 @@
 Module.register("calendar", {
 	// Define module defaults
 	defaults: {
-		maximumEntries: 10, // Total Maximum Entries
+		maximumEntries: 6, // Total Maximum Entries
 		maximumNumberOfDays: 365,
 		limitDays: 0, // Limit the number of days shown, 0 = no limit
 		displaySymbol: true,
@@ -23,7 +23,7 @@ Module.register("calendar", {
 		wrapLocationEvents: false,
 		maxTitleLines: 3,
 		maxEventTitleLines: 3,
-		fetchInterval: 1 * 60 * 1000, // Update every 5 minutes.
+		fetchInterval: 1 * 60 * 1000, // Update every 1 minutes.
 		animationSpeed: 2000,
 		fade: true,
 		urgency: 7,

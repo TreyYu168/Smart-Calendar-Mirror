@@ -1,16 +1,7 @@
 .calendar .symbol {
   padding-left: 0;
-  padding-right: 2em;
-  font-size: 250%;
+  font-size: 300%;
   vertical-align: top;
-}
-
-.calendar .title {
-	font-size: 250%;
-}
-
-.calendar time {
-	font-size: 250%;
 }
 
 .calendar .symbol span {
@@ -19,12 +10,12 @@
 }
 
 .calendar .title {
-  padding-left: 0;
-  padding-right: 0;
+	font-size: 300%;
+  padding-left: 8em;
 }
 
 .calendar .time {
-  padding-left: 30px;
+	font-size: 300%;
   text-align: right;
   vertical-align: top;
 }
